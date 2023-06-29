@@ -92,25 +92,64 @@
       .secondSection {
         max-width: 80vw;
         margin: auto;
-        height: 80vh;
+        height: 50vh;
       }
       .secondSection h1 {
         font-size: 1.9rem;
       }
-      .secondSection .box {
+      /* .secondSection .box {
         background: white;
         width: 80vw;
         height: 2px;
-        margin: 56px 0;
+        margin: 80px 0;
         display: flex;
       }
       .secondSection .vertical {
-        height: 93px;
+        height: 60px;
         width: 1px;
         background: white;
-        margin: 0 100px;
-
+        margin: 0 50px;
       }
+      .image-top {
+        width: 50px;
+        position: relative;
+        top: -55px;
+        left: -22px;
+      }
+      .vertical-title {
+        position: relative;
+        width: 150px;
+        font-size: 1.05rem;
+        color: rgb(170, 107, 228);
+        font: bold;
+        top: 8px;
+      } */
+      .box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 40px auto;
+    }
+
+    .vertical {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .image-top {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .vertical-title {
+      font-size: 0.8rem;
+      color: rgb(170, 107, 228);
+      font-weight: bold;
+    }
+      
+
     </style>
   </head>
   <body>
@@ -120,10 +159,10 @@
         <div class="right">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
+            <li><a href="/">Skills</a></li>
             <li><a href="/">Projects</a></li>
             <li><a href="/">Contacts Me</a></li>
+            <li><a href="/">Connect</a></li>
           </ul>
         </div>
       </nav>
@@ -147,19 +186,70 @@
         <span class="text-gray">What I have known so far...</span>
         <h1>Skills</h1>
         <div class="box">
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
+            <div class="vertical">
+                <img class="image-top" src="java.png" alt="">
+                <div class="vertical-title">Java</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="javascript.png" alt="">
+                <div class="vertical-title">JavaScript</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="html5.png" alt="">
+                <div class="vertical-title">HTML5</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="css3.png" alt="">
+                <div class="vertical-title">CSS3</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="react.png" alt="">
+                <div class="vertical-title">React</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="next_js.png" alt="">
+                <div class="vertical-title">NextJS</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="MongoDB.png" alt="">
+                <div class="vertical-title">MongoDB</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="node_js.png" alt="">
+                <div class="vertical-title">NodeJS</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="express-js.png" alt="">
+                <div class="vertical-title">Express</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="git.png" alt="">
+                <div class="vertical-title">Git</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="github.png" alt="">
+                <div class="vertical-title">Github</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="tail.jpeg" alt="">
+                <div class="vertical-title">Tailwind</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="bootstrap.png" alt="">
+                <div class="vertical-title">Bootstrap</div>
+            </div>
+            
         </div>
       </section>
+
+      <hr>
 
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["Software Developer", "Web Developer"],
+        strings: ["Web Designer", "Software Engineer" ,"Web Developer"],
         typeSpeed: 50,
       });
     </script>
