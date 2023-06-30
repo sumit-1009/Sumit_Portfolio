@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sumit S. Sahu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -138,52 +140,22 @@
         font-size: 1.9rem;
       }
       .box2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 40px auto;
+        margin: 25px auto;
       }
 
-      /* .thirdSection {
-        max-width: 80vw;
-        margin: auto;
-        height: 50vh;
-      } 
-
-      .thirdSection h1 {
-        font-size: 1.9rem; 
-         border: 0;
-        background: rgb(170, 107, 228);
-        height: 1.2px;
-        margin: 40px 40px; 
-       }  */
-
-      .project {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 40px 30px;
+      .project_info {
+        background-color: rgb(18, 18, 62);
+      }
+      .project_info span {
+        color: rgb(170, 107, 228);
+        font: bolder;
+        font-size: 1.05rem;
       }
 
-      .project img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        margin-bottom: 20px;
-      }
-
-      .project-info {
-        text-align: center;
-      }
-
-      .project-info h2 {
+      .project h2 {
         font-size: 1.5rem;
         margin-bottom: 10px;
-      }
-
-      .project-info p {
-        margin-bottom: 10px;
+        font: bolder;
       }
 
       .github-button {
@@ -194,23 +166,15 @@
         text-decoration: none;
         border-radius: 4px;
         transition: background-color 0.3s ease;
+        margin-top: 8px;
       }
 
       .github-button:hover {
-        background-color: rgba(170, 107, 228, 0.8);
+        background-color: rgba(128, 14, 235, 0.8);
+        color: white;
+        font-size: 1.2rem;
       }
 
-      /* @media screen and (min-width: 768px) {
-        .thirdSection {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-        }
-
-        .project {
-          width: 30%;
-        }
-      } */
     </style>
   </head>
   <body>
@@ -307,48 +271,59 @@
       <section class="thirdSection">
         <span class="text-gray">What I have done so far...</span>
         <h1>Projects</h1>
-        <div class="box2">
-            <div class="project">
-                <img src="project1.png" alt="Project 1" />
-                <div class="project-info">
-                  <h2>NewsAlpha</h2>
-                  <p>Stack: Javascript, React, HTML, CSS, Node JS, Bootstrap</p>
-                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+        <div class="box2 row row-cols-1 row-cols-md-3 g-4">
+            <div class="project col">
+              <div class="card h-100">
+                <img src="project1.png" class="card-img-top" alt="...">
+                <div class="project_info card-body">
+                  <h2 class="card-title">NewsAlpha</h2>
+                  <p class="card-text"><span>Stack:</span> ReactJS, HTML, CSS, Node JS, Bootstrap, NewsAPI</p>
+                  <p class="card-text"><span>Description:</span> A fully responsive news website to fetch daily dose of updated news with different categories included.</p>
+                  <a href="https://github.com/sumit-1009/NewsAlpha" target="_blank" class="github-button">GitHub</a>
                 </div>
               </div>
-              <div class="project">
-                <img src="project2.png" alt="Project 2" />
-                <div class="project-info">
-                  <h2>HappyTeeth Clinic</h2>
-                  <p>Stack: HTML, CSS, JavaScript</p>
-                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+            </div>
+            <div class="project col">
+              <div class="card h-100">
+                <img src="project2.png" class="card-img-top" alt="...">
+                <div class="project_info card-body">
+                    <h2 class="card-title">HappyTeeth Clinic</h2>
+                    <p class="card-text"><span>Stack:</span> HTML, CSS, JavaScript</p>
+                    <p class="card-text"><span>Description:</span> A fully responsive dental clinic website to book an appointment. The website contains neccessary information about hospital services.</p>
+                    <a href="https://github.com/sumit-1009/Hospital-Website" target="_blank" class="github-button">GitHub</a>
                 </div>
               </div>
-              <div class="project">
-                <img src="project3.png" alt="Project 3" />
-                <div class="project-info">
-                  <h2>AlphaWear</h2>
-                  <p>Stack: Next JS, Tailwind CSS, Javascript, HTML</p>
-                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+            </div>
+            <div class="project col">
+              <div class="card h-100">
+                <img src="project3.png" class="card-img-top" alt="...">
+                <div class="project_info card-body">
+                    <h2 class="card-title">AlphaWear</h2>
+                    <p class="card-text"><span>Stack:</span> Next JS, Tailwind CSS, Javascript, HTML, MongoDB, PayTM Gateway</p>
+                    <p class="card-text"><span>Description:</span> A fully responsive ecommerce website where you can buy everything in one click.</p>
+                    <a href="https://github.com/sumit-1009/AlphaWear" target="_blank" class="github-button">GitHub</a>
                 </div>
               </div>
-              <div class="project">
-                <img src="project4.png" alt="Project 4" />
-                <div class="project-info">
-                  <h2>AlphaHotels</h2>
-                  <p>Stack: React, Node.js, MongoDB, HTML, CSS</p>
-                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+            </div>
+            <div class="project col">
+              <div class="card h-100">
+                <img src="project4.png" class="card-img-top" alt="...">
+                <div class="project_info card-body">
+                    <h2 class="card-title">AlphaHotels</h2>
+                    <p class="card-text"><span>Stack:</span> React, Node.js, MongoDB, HTML, CSS</p>
+                    <p class="card-text"><span>Description:</span> A fully responsive hotels booking and ordering food with different filters.</p>
+                    <a href="https://github.com/sumit-1009/AlphaHotels" target="_blank" class="github-button">GitHub</a>
                 </div>
               </div>
-        </div>
-      </section>
+            </div>
+          </div>
 
+      </section>
       
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
