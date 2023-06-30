@@ -97,59 +97,120 @@
       .secondSection h1 {
         font-size: 1.9rem;
       }
-      /* .secondSection .box {
-        background: white;
-        width: 80vw;
-        height: 2px;
-        margin: 80px 0;
-        display: flex;
-      }
-      .secondSection .vertical {
-        height: 60px;
-        width: 1px;
-        background: white;
-        margin: 0 50px;
-      }
-      .image-top {
-        width: 50px;
-        position: relative;
-        top: -55px;
-        left: -22px;
-      }
-      .vertical-title {
-        position: relative;
-        width: 150px;
-        font-size: 1.05rem;
-        color: rgb(170, 107, 228);
-        font: bold;
-        top: 8px;
-      } */
       .box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin: 40px auto;
-    }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+      }
 
-    .vertical {
-      display: flex;
-      align-items: center;
-      margin: 20px;
-    }
+      .vertical {
+        display: flex;
+        align-items: center;
+        margin: 20px;
+      }
 
-    .image-top {
-      width: 30px;
-      margin-right: 10px;
-    }
+      .image-top {
+        width: 30px;
+        margin-right: 10px;
+      }
 
-    .vertical-title {
-      font-size: 0.8rem;
-      color: rgb(170, 107, 228);
-      font-weight: bold;
-    }
-      
+      .vertical-title {
+        font-size: 0.8rem;
+        color: rgb(170, 107, 228);
+        font-weight: bold;
+      }
 
+      .project_break {
+        border: 0;
+        background: rgb(170, 107, 228);
+        height: 1.2px;
+        margin: 40px 40px;
+      }
+
+      .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 1000vh;
+      }
+      .thirdSection h1 {
+        font-size: 1.9rem;
+      }
+      .box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+      }
+
+      /* .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+      } 
+
+      .thirdSection h1 {
+        font-size: 1.9rem; 
+         border: 0;
+        background: rgb(170, 107, 228);
+        height: 1.2px;
+        margin: 40px 40px; 
+       }  */
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+      }
+
+      .project img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .project-info {
+        text-align: center;
+      }
+
+      .project-info h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .project-info p {
+        margin-bottom: 10px;
+      }
+
+      .github-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(170, 107, 228);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+
+      .github-button:hover {
+        background-color: rgba(170, 107, 228, 0.8);
+      }
+
+      /* @media screen and (min-width: 768px) {
+        .thirdSection {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+        .project {
+          width: 30%;
+        }
+      } */
     </style>
   </head>
   <body>
@@ -180,76 +241,110 @@
         </div>
       </section>
 
-      <hr>
+      <hr />
 
       <section class="secondSection">
         <span class="text-gray">What I have known so far...</span>
         <h1>Skills</h1>
         <div class="box">
-            <div class="vertical">
-                <img class="image-top" src="java.png" alt="">
-                <div class="vertical-title">Java</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="javascript.png" alt="">
-                <div class="vertical-title">JavaScript</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="html5.png" alt="">
-                <div class="vertical-title">HTML5</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="css3.png" alt="">
-                <div class="vertical-title">CSS3</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="react.png" alt="">
-                <div class="vertical-title">React</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="next_js.png" alt="">
-                <div class="vertical-title">NextJS</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="MongoDB.png" alt="">
-                <div class="vertical-title">MongoDB</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="node_js.png" alt="">
-                <div class="vertical-title">NodeJS</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="express-js.png" alt="">
-                <div class="vertical-title">Express</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="git.png" alt="">
-                <div class="vertical-title">Git</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="github.png" alt="">
-                <div class="vertical-title">Github</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="tail.jpeg" alt="">
-                <div class="vertical-title">Tailwind</div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="bootstrap.png" alt="">
-                <div class="vertical-title">Bootstrap</div>
-            </div>
-            
+          <div class="vertical">
+            <img class="image-top" src="java.png" alt="" />
+            <div class="vertical-title">Java</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="javascript.png" alt="" />
+            <div class="vertical-title">JavaScript</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="html5.png" alt="" />
+            <div class="vertical-title">HTML5</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css3.png" alt="" />
+            <div class="vertical-title">CSS3</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="react.png" alt="" />
+            <div class="vertical-title">React</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="next_js.png" alt="" />
+            <div class="vertical-title">NextJS</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="MongoDB.png" alt="" />
+            <div class="vertical-title">MongoDB</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="node_js.png" alt="" />
+            <div class="vertical-title">NodeJS</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="express-js.png" alt="" />
+            <div class="vertical-title">Express</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="git.png" alt="" />
+            <div class="vertical-title">Git</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="github.png" alt="" />
+            <div class="vertical-title">Github</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="tail.jpeg" alt="" />
+            <div class="vertical-title">Tailwind</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bootstrap.png" alt="" />
+            <div class="vertical-title">Bootstrap</div>
+          </div>
         </div>
       </section>
 
-      <hr>
+      <hr class="project_break" />
 
+      <section class="thirdSection">
+        <span class="text-gray">What I have done so far...</span>
+        <h1>Projects</h1>
+        <div class="box2">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1" />
+                <div class="project-info">
+                  <h2>Project 1</h2>
+                  <p>Stack: HTML, CSS, JavaScript</p>
+                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="project2.jpg" alt="Project 2" />
+                <div class="project-info">
+                  <h2>Project 2</h2>
+                  <p>Stack: React, Node.js, MongoDB</p>
+                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="project3.jpg" alt="Project 2" />
+                <div class="project-info">
+                  <h2>Project 3</h2>
+                  <p>Stack: React, Node.js, MongoDB</p>
+                  <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="https://github.com/your-github-repo" target="_blank" class="github-button">GitHub</a>
+                </div>
+              </div>
+        </div>
+      </section>
+
+      
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["Web Designer", "Software Engineer" ,"Web Developer"],
+        strings: ["Web Designer", "Software Engineer", "Web Developer"],
         typeSpeed: 50,
       });
     </script>
