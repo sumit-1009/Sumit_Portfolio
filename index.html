@@ -7,175 +7,14 @@
     <title>Sumit S. Sahu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        background-color: rgb(0, 0, 33);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 70px;
-        background-color: rgb(18, 18, 62);
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover {
-        color: rgb(170, 107, 228);
-        font-size: 1.12rem;
-      }
-      main hr {
-        border: 0;
-        background: rgb(170, 107, 228);
-        height: 1.2px;
-        margin: 40px 40px;
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      .left a {
-        text-decoration: none;
-        color: white;
-      }
-      .left a:hover {
-        font-size: 1.75rem;
-        color: rgb(170, 107, 228);
-      }
-
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 120px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 2.5rem;
-      }
-      .rightSection img {
-        width: 80%;
-      }
-      .purple {
-        color: rgb(170, 107, 228);
-      }
-      .text-gray {
-        color: rgb(170, 107, 228);
-      }
-      #element {
-        color: rgb(170, 107, 228);
-      }
-
-      .secondSection {
-        max-width: 80vw;
-        margin: auto;
-        height: 50vh;
-      }
-      .secondSection h1 {
-        font-size: 1.9rem;
-      }
-      .box {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 40px auto;
-      }
-
-      .vertical {
-        display: flex;
-        align-items: center;
-        margin: 20px;
-      }
-
-      .image-top {
-        width: 30px;
-        margin-right: 10px;
-      }
-
-      .vertical-title {
-        font-size: 0.8rem;
-        color: rgb(170, 107, 228);
-        font-weight: bold;
-      }
-
-      .project_break {
-        border: 0;
-        background: rgb(170, 107, 228);
-        height: 1.2px;
-        margin: 40px 40px;
-      }
-
-      .thirdSection {
-        max-width: 80vw;
-        margin: auto;
-        height: 200vh;
-      }
-      .thirdSection h1 {
-        font-size: 1.9rem;
-      }
-      .box2 {
-        margin: 25px auto;
-      }
-
-      .project_info {
-        background-color: rgb(18, 18, 62);
-      }
-      .project_info span {
-        color: rgb(170, 107, 228);
-        font: bolder;
-        font-size: 1.05rem;
-      }
-
-      .project h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        font: bolder;
-      }
-
-      .github-button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: rgb(170, 107, 228);
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        transition: background-color 0.3s ease;
-        margin-top: 8px;
-      }
-
-      .github-button:hover {
-        background-color: rgba(128, 14, 235, 0.8);
-        color: white;
-        font-size: 1.2rem;
-      }
-
-    </style>
   </head>
   <body>
     <header>
@@ -271,7 +110,7 @@
       <section class="thirdSection">
         <span class="text-gray">What I have done so far...</span>
         <h1>Projects</h1>
-        <div class="box2 row row-cols-1 row-cols-md-3 g-4">
+        <div class="box2 row row-cols-1 row-cols-sm-2 row-cols-md-3  g-4">
             <div class="project col">
               <div class="card h-100">
                 <img src="project1.png" class="card-img-top" alt="...">
@@ -317,7 +156,44 @@
               </div>
             </div>
           </div>
+      </section>
 
+      <hr class="project_break" />
+
+      <section class="fourthSection">
+        <span class="text-gray">What I have accomplished and certified so far...</span>
+        <h1>Achievements</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-mb-0 mb-5">
+                    <div class="position-relative mt-5">
+                        <img src="achieve2.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="mt-5 card">
+                        <div class="about-achieve">
+                            <h4>GFG</h4>
+                            <p>500+ Coding Score & solved 160+ Coding Problems in Geeks for Geeks Portal.</p>
+                        </div>
+                        <div class="about-achieve">
+                            <h4>Leetcode</h4>
+                            <p>125+ problems solved in Leetcode.</p>
+                        </div>
+                        <div class="about-achieve">
+                            <h4>Flipkart Grid 4.0</h4>
+                            <p>Cleared software development challenge level1.</p>
+                        </div>
+                        <div class="about-achieve">
+                            <h4>Microsoft FRT</h4>
+                            <p>Completed virtual internship program under microsoft.</p>
+                        </div>
+                        <span class="line-1"></span>
+                        <span class="line-2"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
       
     </main>
