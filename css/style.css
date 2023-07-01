@@ -244,7 +244,7 @@
 .footer_wrapper h5{
     color:rgb(170, 107, 228);
     font: bolder;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .footer_wrapper .contact-info ul a {
   color:var(--text-white);
@@ -330,7 +330,7 @@
    
 }
 .footer_wrapper .copyright-section a{
-    color:var(--text-white);
+    color:rgb(170, 107, 228);
     font-weight: 600;
     text-decoration: none;
 }
