@@ -179,6 +179,7 @@
     font-size: 1.2rem;
   }
 
+
   .fourthSection {
     max-width: 80vw;
     margin: auto;
@@ -187,38 +188,34 @@
   .fourthSection h1 {
     font-size: 1.9rem;
   }
-
-/* 4 About */
-.fourthSection .card{
+  .fourthSection .card{
     width:80%;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: rgb(0, 0, 33);
-}
-.about-achieve {
+  }
+  .about-achieve {
     flex:0 0 auto;
     width:50%;
     color: black;
-}
-
-.about-achieve h4 {
+  }
+  .about-achieve h4 {
     color: rgb(170, 107, 228);
     font: bolder;
     font-size: 1.5rem;
-}
-.about-achieve p {
+  }
+  .about-achieve p {
     color: white;
-}
-
-.fourthSection .about-achieve:nth-child(1),
-.fourthSection .about-achieve:nth-child(2){
+  }
+  .fourthSection .about-achieve:nth-child(1),
+  .fourthSection .about-achieve:nth-child(2){
     margin-bottom:2.8125rem;
-}
-.fourthSection .about-achieve:nth-child(2),
-.fourthSection .about-achieve:nth-child(4){
+  }
+  .fourthSection .about-achieve:nth-child(2),
+  .fourthSection .about-achieve:nth-child(4){
     padding-left:3.75rem;
-}
+  }
 
 .fourthSection .line-1,
 .fourthSection .line-2{
