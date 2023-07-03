@@ -68,7 +68,62 @@
   .left a:hover {
     font-size: 1.75rem;
     color: rgb(170, 107, 228);
+    font: bolder;
   }
+
+  /* 2 Navbar */ 
+  .header_wrapper {
+    background-color: rgb(18, 18, 62);
+  }
+  .header_wrapper .navbar-brand {
+    color: wheat;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .header_wrapper .navbar-brand:hover {
+    color: rgb(170, 107, 228);
+    font-size: 1.75rem;
+    cursor: pointer;
+  }
+.header_wrapper .navbar{
+  padding:.9375rem 0;
+  background-color:transparent;
+  transition:0.3s ease-in-out;
+}
+.header_wrapper .navbar-toggler,
+.header_wrapper .navbar-toggler:focus{
+  border:0;
+  box-shadow: none;
+  color: white;
+  line-height: 2;
+}
+
+.header_wrapper .nav-item{
+  margin:0 .625rem;
+}
+.header_wrapper .nav-item .nav-link{
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: wheat;
+  display:inline-block;
+  font-family: var(--secondary-font);
+}
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link:focus,
+.header_wrapper .nav-item .nav-link.active{
+  color:var(--secondary-text);
+  font-size: 1.23rem;
+}
+.navbar.header-scrolled{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
+  background-color: rgb(18, 18, 62);
+  box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+  transition:0.3s ease-in-out;
+}
 
   .firstSection {
     display: flex;

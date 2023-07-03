@@ -17,7 +17,7 @@
     />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <nav>
         <div class="left"><a href="/">Sumit's Portfolio</a></div>
         <div class="right">
@@ -30,10 +30,42 @@
           </ul>
         </div>
       </nav>
+    </header> -->
+
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="/">
+                  Sumit's Portfolio
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav  menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#achievements">Achievements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Connect</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-      <section class="firstSection">
+      <section id="home" class="firstSection">
         <div class="leftSection">
           Hi, I am <span class="purple">Sumit S. Sahu</span>
           <div>and I am a passionate</div>
@@ -46,7 +78,7 @@
 
       <hr />
 
-      <section class="secondSection">
+      <section id="skills" class="secondSection">
         <span class="text-gray">What I have known so far...</span>
         <h1>Skills</h1>
         <div class="box">
@@ -107,7 +139,7 @@
 
       <hr class="project_break" />
 
-      <section class="thirdSection">
+      <section id="projects" class="thirdSection">
         <span class="text-gray">What I have done so far...</span>
         <h1>Projects</h1>
         <div class="box2 row row-cols-1 row-cols-sm-2 row-cols-md-3  g-4">
@@ -160,7 +192,7 @@
 
       <hr class="project_break" />
 
-      <section class="fourthSection">
+      <section id="achievements" class="fourthSection">
         <span class="text-gray">What I have accomplished and certified so far...</span>
         <h1>Achievements</h1>
         <div class="container">
@@ -252,6 +284,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/main.js"></script>
     <script>
       var typed = new Typed("#element", {
         strings: ["Web Designer", "Software Engineer", "Web Developer"],
