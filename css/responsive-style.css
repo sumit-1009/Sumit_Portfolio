@@ -4,6 +4,11 @@
     .header_wrapper .navbar-nav .nav-link{
         font-size: 1rem;
     }
+
+    .secondSection {
+        height: 60vh;
+    }
+
     /* top banner */ 
     .banner_wrapper .animate-img .aimg1{
         left:-3.125rem;
@@ -18,6 +23,9 @@
 
 @media (max-width:991px) {
 
+    .secondSection {
+        height: 60vh;
+    }
     /* 2 Navbar */ 
     .header-scrolled{
         height:auto;
@@ -48,7 +56,22 @@
 
 }
 
+/* @media (max-width: 490px) {
+    .secondSection{
+        height: 65vh;
+    }
+} */
+
 @media (max-width: 767px) {
+
+    /* .firstSection {
+        flex-direction: column-reverse;
+    } */
+
+    .secondSection {
+        height: 65vh;
+    }
+
 
     /* footer */ 
     .footer_wrapper{ 
@@ -59,7 +82,21 @@
     }
 }
 
+@media (max-width: 625px) {
+    .secondSection {
+        height: 90vh;
+    }
+}
+
 @media (max-width: 360px) {
+
+    .firstSection {
+        flex-direction: column-reverse;
+    }
+
+    .secondSection {
+        height: 100vh;
+    }
 
     /* achievements */   
     .fourthSection .card{
