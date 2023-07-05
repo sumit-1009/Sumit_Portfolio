@@ -8,6 +8,9 @@
     .secondSection {
         height: 60vh;
     }
+    .thirdSection {
+        height: 195vh;
+    }
 
     /* top banner */ 
     .banner_wrapper .animate-img .aimg1{
@@ -25,6 +28,9 @@
 
     .secondSection {
         height: 60vh;
+    }
+    .thirdSection {
+        height: 195vh;
     }
     /* 2 Navbar */ 
     .header-scrolled{
@@ -71,6 +77,9 @@
     .secondSection {
         height: 65vh;
     }
+    .thirdSection {
+        height: 200vh;
+    }
 
 
     /* footer */ 
@@ -86,9 +95,21 @@
     .secondSection {
         height: 90vh;
     }
+    .thirdSection {
+        height: 200vh;
+    }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 576px) {
+    .secondSection {
+        height: 90vh;
+    }
+    .thirdSection {
+        height: 375vh;
+    }
+}
+
+@media (max-width: 370px) {
 
     .firstSection {
         flex-direction: column-reverse;
@@ -96,6 +117,10 @@
 
     .secondSection {
         height: 100vh;
+    }
+
+    .thirdSection {
+        height: 350vh;
     }
 
     /* achievements */   
