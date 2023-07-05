@@ -149,6 +149,9 @@
   .rightSection img {
     width: 80%;
   }
+
+
+
   .purple {
     color: rgb(170, 107, 228);
   }
@@ -198,6 +201,7 @@
     height: 1.2px;
     margin: 40px 40px;
   }
+
 
   .thirdSection {
     max-width: 80vw;

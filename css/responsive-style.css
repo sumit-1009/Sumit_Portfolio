@@ -4,6 +4,10 @@
     .header_wrapper .navbar-nav .nav-link{
         font-size: 1rem;
     }
+    /* top banner */ 
+    .banner_wrapper .animate-img .aimg1{
+        left:-3.125rem;
+    }
 
     /* achievements */ 
     .fourthSection .card{
@@ -23,6 +27,11 @@
     }
     .header_wrapper .nav-item .nav-link{
         margin-top:.9375rem;
+    }
+
+     /* banner */ 
+     .banner_wrapper p{
+        max-width: 100%;
     }
 
 
