@@ -51,34 +51,43 @@
 
 
     /* achievements */ 
+    .fourthSection{
+        height: 95vh;
+    }
     .fourthSection .about-achieve:nth-child(1),
     .fourthSection .about-achieve:nth-child(2){
-        margin-bottom:1.5625rem;
+        margin-bottom:2.5625rem;
     }
     .about_wrapper .about-achieve:nth-child(2),
     .about_wrapper .about-achieve:nth-child(4){
-        padding-left:2.375rem;
+        padding-left:0.75rem;
     }
 
 }
 
-/* @media (max-width: 490px) {
-    .secondSection{
-        height: 65vh;
-    }
-} */
-
 @media (max-width: 767px) {
-
-    /* .firstSection {
-        flex-direction: column-reverse;
-    } */
 
     .secondSection {
         height: 65vh;
     }
     .thirdSection {
         height: 200vh;
+    }
+    .fourthSection {
+        height: 125vh;
+    }
+    .fourthSection .position-relative{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_wrapper .about-achieve:nth-child(2),
+    .about_wrapper .about-achieve:nth-child(4){
+        padding-left:0.75rem;
+    }
+    .about_wrapper .about-achieve:nth-child(1),
+    .about_wrapper .about-achieve:nth-child(3){
+        padding-right:0.75rem;
     }
 
 
@@ -130,6 +139,13 @@
     .fourthSection .about-achieve:nth-child(2),
     .fourthSection .about-achieve:nth-child(4){
         padding-left:.625rem;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .secondSection {
+        height: 140vh;
     }
 
 }
