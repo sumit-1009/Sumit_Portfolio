@@ -1,3 +1,15 @@
+@media (max-width: 1505px){
+    .thirdSection {
+        height: 155vh;
+    }
+}
+
+@media (max-width: 1148px){
+    .thirdSection {
+        height: 145vh;
+    }
+}
+
 @media (max-width: 1199.5px) {
 
     /* header */ 
@@ -32,7 +44,7 @@
     }
     /* projects */ 
     .thirdSection {
-        height: 195vh;
+        height: 148vh;
     }
     /* 2 Navbar */ 
     .header-scrolled{
@@ -75,7 +87,7 @@
     }
     /* projects */
     .thirdSection {
-        height: 200vh;
+        height: 145vh;
     }
     /* achievements */
     .fourthSection {
@@ -113,7 +125,7 @@
     }
     /* projects */
     .thirdSection {
-        height: 200vh;
+        height: 160vh;
     }
     /* achievements */
     .fourthSection {
@@ -128,7 +140,7 @@
     }
     /* projects */
     .thirdSection {
-        height: 375vh;
+        height: 275vh;
     }
     /* achievements */
     .fourthSection {
