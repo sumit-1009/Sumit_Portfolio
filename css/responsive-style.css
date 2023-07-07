@@ -140,7 +140,7 @@
     }
     /* projects */
     .thirdSection {
-        height: 275vh;
+        height: 335vh;
     }
     /* achievements */
     .fourthSection {
@@ -185,5 +185,40 @@
     }
     .fourthSection {
         height: 162vh;
+    }
+}
+
+@media (max-width: 332px){
+    /* skills */
+    .secondSection {
+        height: 120vh;
+    }
+}
+
+
+@media (max-width: 310px){
+    /* skills */
+    .secondSection {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 265px){
+    /* projects */
+    .thirdSection {
+        height: 390vh;
+    }
+    .fourthSection {
+        height: 182vh;
+    }
+}
+
+@media (max-width: 235px){
+    /* projects */
+    .thirdSection {
+        height: 430vh;
+    }
+    .fourthSection {
+        height: 200vh;
     }
 }
