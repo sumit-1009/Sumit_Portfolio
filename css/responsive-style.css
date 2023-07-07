@@ -115,6 +115,10 @@
     .thirdSection {
         height: 200vh;
     }
+    /* achievements */
+    .fourthSection {
+        height: 135vh;
+    }
 }
 
 @media (max-width: 576px) {
@@ -125,6 +129,16 @@
     /* projects */
     .thirdSection {
         height: 375vh;
+    }
+    /* achievements */
+    .fourthSection {
+        height: 145vh;
+    }
+    .fourthSection .about-achieve:nth-child(1), .fourthSection .about-achieve:nth-child(2) {
+        margin-bottom: 1.5625rem;
+    }
+    .fourthSection .about-achieve:nth-child(2), .fourthSection .about-achieve:nth-child(4) {
+        padding-left: 0.75rem;
     }
 }
 
@@ -146,9 +160,18 @@
     .fourthSection .card{
         padding:1.25rem .3125rem;
     }
+    .fourthSection .about-achieve:nth-child(1), .fourthSection .about-achieve:nth-child(2) {
+        margin-bottom: 1.5625rem;
+    }
     .fourthSection .about-achieve:nth-child(2),
     .fourthSection .about-achieve:nth-child(4){
         padding-left:.625rem;
     }
-
+    .fourthSection .about-achieve:nth-child(3),
+    .fourthSection .about-achieve:nth-child(4){
+        margin-top: 1.625rem;
+    }
+    .fourthSection {
+        height: 162vh;
+    }
 }
