@@ -37,6 +37,10 @@
 }
 
 @media (max-width:991px) {
+    /* home */ 
+    .banner_wrapper .top-right-sec{
+        padding: 45px;
+    }
 
     /* skills */ 
     .secondSection {
@@ -80,6 +84,13 @@
 }
 
 @media (max-width: 767px) {
+
+    .banner_wrapper .top-right-sec {
+        padding-top: 60px;
+        padding-left: 0px;
+        padding-bottom: 2px;
+        padding-right: -20px;
+    }
 
     /* skills */
     .secondSection {
@@ -134,6 +145,14 @@
 }
 
 @media (max-width: 576px) {
+    /* home */ 
+    .banner_wrapper .top-right-sec{
+        padding: 50px;
+    }
+    .banner_wrapper .left{
+        padding-left: 45px;
+    }
+
     /* skills */
     .secondSection {
         height: 90vh;
