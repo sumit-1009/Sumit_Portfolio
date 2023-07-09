@@ -166,7 +166,6 @@
   .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 50vh;
   }
   .secondSection h1 {
     font-size: 1.9rem;
@@ -207,7 +206,6 @@
   .thirdSection {
     max-width: 80vw;
     margin: auto;
-    height: 180vh;
   }
   .thirdSection h1 {
     font-size: 1.9rem;
@@ -252,7 +250,6 @@
   .fourthSection {
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
   }
   .fourthSection h1 {
     font-size: 1.9rem;

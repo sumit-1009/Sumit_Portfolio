@@ -1,34 +1,12 @@
-@media (max-width: 1505px){
-    .thirdSection {
-        height: 155vh;
-    }
-}
-
-@media (max-width: 1148px){
-    .thirdSection {
-        height: 145vh;
-    }
-}
-
 @media (max-width: 1199.5px) {
-
     /* header */ 
     .header_wrapper .navbar-nav .nav-link{
         font-size: 1rem;
     }
-
-    .secondSection {
-        height: 60vh;
-    }
-    .thirdSection {
-        height: 195vh;
-    }
-
     /* top banner */ 
     .banner_wrapper .animate-img .aimg1{
         left:-3.125rem;
     }
-
     /* achievements */ 
     .fourthSection .card{
         width:100%;
@@ -41,15 +19,6 @@
     .banner_wrapper .top-right-sec{
         padding: 45px;
     }
-
-    /* skills */ 
-    .secondSection {
-        height: 60vh;
-    }
-    /* projects */ 
-    .thirdSection {
-        height: 148vh;
-    }
     /* 2 Navbar */ 
     .header-scrolled{
         height:auto;
@@ -60,17 +29,9 @@
     .header_wrapper .nav-item .nav-link{
         margin-top:.9375rem;
     }
-
      /* banner */ 
      .banner_wrapper p{
         max-width: 100%;
-    }
-
-
-
-    /* achievements */ 
-    .fourthSection{
-        height: 95vh;
     }
     .fourthSection .about-achieve:nth-child(1),
     .fourthSection .about-achieve:nth-child(2){
@@ -84,25 +45,11 @@
 }
 
 @media (max-width: 767px) {
-
     .banner_wrapper .top-right-sec {
         padding-top: 60px;
         padding-left: 0px;
         padding-bottom: 2px;
         padding-right: -20px;
-    }
-
-    /* skills */
-    .secondSection {
-        height: 65vh;
-    }
-    /* projects */
-    .thirdSection {
-        height: 145vh;
-    }
-    /* achievements */
-    .fourthSection {
-        height: 125vh;
     }
     .fourthSection .position-relative{
          display: flex;
@@ -117,30 +64,12 @@
     .about_wrapper .about-achieve:nth-child(3){
         padding-right:0.75rem;
     }
-
-
     /* footer */ 
     .footer_wrapper{ 
         padding-bottom:0;
     }
     .footer_wrapper>div{
         padding:0 1.875rem;
-    }
-}
-
-@media (max-width: 625px) {
-
-    /* skills */
-    .secondSection {
-        height: 90vh;
-    }
-    /* projects */
-    .thirdSection {
-        height: 160vh;
-    }
-    /* achievements */
-    .fourthSection {
-        height: 135vh;
     }
 }
 
@@ -152,19 +81,6 @@
     .banner_wrapper .left{
         padding-left: 45px;
     }
-
-    /* skills */
-    .secondSection {
-        height: 90vh;
-    }
-    /* projects */
-    .thirdSection {
-        height: 335vh;
-    }
-    /* achievements */
-    .fourthSection {
-        height: 145vh;
-    }
     .fourthSection .about-achieve:nth-child(1), .fourthSection .about-achieve:nth-child(2) {
         margin-bottom: 1.5625rem;
     }
@@ -174,19 +90,9 @@
 }
 
 @media (max-width: 370px) {
-
     .firstSection {
         flex-direction: column-reverse;
     }
-    /* skills */
-    .secondSection {
-        height: 100vh;
-    }
-    /* projects */
-    .thirdSection {
-        height: 350vh;
-    }
-
     /* achievements */   
     .fourthSection .card{
         padding:1.25rem .3125rem;
@@ -201,43 +107,5 @@
     .fourthSection .about-achieve:nth-child(3),
     .fourthSection .about-achieve:nth-child(4){
         margin-top: 1.625rem;
-    }
-    .fourthSection {
-        height: 162vh;
-    }
-}
-
-@media (max-width: 332px){
-    /* skills */
-    .secondSection {
-        height: 120vh;
-    }
-}
-
-
-@media (max-width: 310px){
-    /* skills */
-    .secondSection {
-        height: 150vh;
-    }
-}
-
-@media (max-width: 265px){
-    /* projects */
-    .thirdSection {
-        height: 390vh;
-    }
-    .fourthSection {
-        height: 182vh;
-    }
-}
-
-@media (max-width: 235px){
-    /* projects */
-    .thirdSection {
-        height: 430vh;
-    }
-    .fourthSection {
-        height: 200vh;
     }
 }
