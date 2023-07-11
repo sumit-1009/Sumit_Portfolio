@@ -8,9 +8,17 @@ window.onscroll = function() {
 }
   
 let navBar = document.querySelectorAll(".nav-link");
-let navCollapse = document.querySelector(".navbar-collapse.collapse");
-navBar.forEach(function(a){
-    a.addEventListener("click", function(){
-        navCollapse.classList.remove("show");
-    })
-})
+// let navCollapse = document.querySelector(".offcanvas-end.offcanvas");
+// navBar.forEach(function(a){
+//     a.addEventListener("click", function(){
+//         navCollapse.classList.remove("show");
+//     })
+// })
+
+let navCollapse = document.querySelector(".offcanvas-end.offcanvas");
+navBar.forEach(function(a) {
+  a.addEventListener("click", function() {
+    navCollapse.style.visibility = "hidden";
+    navCollapse.classList.remove("show");
+  });
+});

@@ -17,10 +17,6 @@
     --secondary-font: 'Josefin Sans', sans-serif;
     --primary-text: rgb(18, 18, 62);
     --secondary-text: rgb(170, 107, 228);
-    --text-white: #fff;
-    --text-black: #222;
-    --text-gray: #666;
-    --text-light: #ddd;
 }
 
   body {
@@ -124,6 +120,19 @@
   box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
   transition:0.3s ease-in-out;
 }
+.navbar .nav-btn{
+  color: white;
+}
+.navbar .offcanvas{
+  background-color: rgb(18, 18, 62);
+}
+.navbar .offcanvas-title{
+  color: wheat;
+}
+.navbar .offcanvas-header{
+  background-color: rgb(3, 3, 66);
+}
+
   
 /* 3 Banner */
 .btn{
@@ -141,6 +150,7 @@
   background-color: rgb(18, 18, 62);
 }
 .banner_wrapper{
+  background: transparent;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
