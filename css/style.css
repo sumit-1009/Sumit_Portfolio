@@ -212,6 +212,17 @@
     margin: 40px 40px;
   }
 
+  .workExperienceSection {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .workExperienceSection h1 {
+    font-size: 1.9rem;
+  }
+  .positionTitle {
+    color: rgb(170, 107, 228);
+  }
+
 
   .thirdSection {
     max-width: 80vw;
